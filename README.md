@@ -13,14 +13,13 @@ It connects surplus food donors (like restaurants, shops, individuals) with veri
 - 🚗 **Volunteer Dashboard:** Community volunteers pick up and deliver food. Smart routing, fuel tracking, and task points system included.
 - 🗺️ **Local Focus:** Township-level matching with live route planning, WhatsApp fallback, and community trust badges.
 - 🫶 **Impact & Trust:** Donors see exactly where their food goes — verified partners only.  
-- 🔒 **Secure & Student-Built:** Fully built with React, TypeScript, Tailwind CSS, and Supabase for the backend — completely open-source.
+- 🔒 **Secure & Student-Built:** Fully built with React, TypeScript, Tailwind CSS.
 
 ---
 
 ## 📚 Tech Stack
 
 - **Frontend:** React, TypeScript, Tailwind CSS, shadcn/ui
-- **Backend:** Supabase (free open-source Postgres, Auth, Realtime)
 - **Animations:** framer-motion
 - **Icons:** lucide-react
 - **Local Dev:** Vite for fast dev server & builds
