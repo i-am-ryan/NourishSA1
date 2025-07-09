@@ -1,73 +1,41 @@
-# Welcome to your Lovable project
+# 🌱 NourishSA
 
-## Project info
+**NourishSA** is a smart, community-powered platform to tackle food insecurity in South Africa.  
+It connects surplus food donors (like restaurants, shops, individuals) with verified local food hubs, micro food banks, orphanages, and families in need — all supported by trusted volunteers.
 
-**URL**: https://lovable.dev/projects/e54713ef-1985-48ac-b419-91a69b6aca83
+---
 
-## How can I edit this code?
+## ✨ What it does
 
-There are several ways of editing your application.
+- 📦 **Surplus Hub:** Donors list surplus food. The AI matcher finds the closest trusted recipient.
+- 🤝 **Claim or Donate:** Anyone can choose to donate food or claim food if they need help.
+- 🔗 **AI Surplus Matcher:** Uses geo-matching and real-time data to connect surplus to verified recipients fast.
+- 🚗 **Volunteer Dashboard:** Community volunteers pick up and deliver food. Smart routing, fuel tracking, and task points system included.
+- 🗺️ **Local Focus:** Township-level matching with live route planning, WhatsApp fallback, and community trust badges.
+- 🫶 **Impact & Trust:** Donors see exactly where their food goes — verified partners only.  
+- 🔒 **Secure & Student-Built:** Fully built with React, TypeScript, Tailwind CSS, and Supabase for the backend — completely open-source.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e54713ef-1985-48ac-b419-91a69b6aca83) and start prompting.
+## 📚 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend:** React, TypeScript, Tailwind CSS, shadcn/ui
+- **Backend:** Supabase (free open-source Postgres, Auth, Realtime)
+- **Animations:** framer-motion
+- **Icons:** lucide-react
+- **Local Dev:** Vite for fast dev server & builds
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ⚡️ How it works (core flow)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **Donors:** Add surplus food → choose donor type → fill in food details → upload photo → confirm.
+2. **AI Surplus Matcher:** Auto-matches surplus to the best verified hub near the donor.
+3. **Volunteers:** Get notified by WhatsApp → accept task → see grouped routes → deliver → slide-to-complete with photo proof.
+4. **Recipients:** Verified orgs get matched only within their capacity. Families/individuals can claim directly too.
+5. **Impact:** Total food saved, meals created, and volunteer points shown in dashboards.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🗂️ Folders
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e54713ef-1985-48ac-b419-91a69b6aca83) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
